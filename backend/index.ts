@@ -1,3 +1,4 @@
+import path from "path";
 import express from "express";
 import { config } from "dotenv";
 import cors from "cors";
@@ -21,6 +22,8 @@ app.use(express.json());
 app.get("/", (req, res) => {
   res.json({ msg: "Bienvenue sur l'API du projet: Musical Playlist Solo 🎵" });
 });
+
+app.use("/uploads", express.static(path.join(process.cwd(), "uploads")));
 
 app.get("/songs", async (req, res) => {
   try {

@@ -1,0 +1,58 @@
+.footer {
+  width: 100%;
+  padding: 25px;
+  background-color: #000000;
+  color: #8299a8;
+  font-family: "Caveat", cursive;
+  border-top: 2px solid #477f98;
+}
+
+.footer-logo {
+  width: 65px;
+  height: 65px;
+  border: 2px solid #477f98;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+}
+
+.footer-brand {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.footer-brand h2 {
+  font-size: 28px;
+}
+
+.footer-brand p {
+  font-size: 22px;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.footer-sections h3 {
+  font-size: 23px;
+}
+
+.footer-sections p,
+.footer-sections a {
+  color: #8299a8;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  border-top: 1px solid #477f98;
+  text-align: center;
+  padding-top: 15px;
+  font-size: 18px;
+}

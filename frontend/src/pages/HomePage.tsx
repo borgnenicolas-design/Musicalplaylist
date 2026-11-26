@@ -7,7 +7,7 @@ export default function HomePage() {
     artist: string;
     album: string;
     genre: string;
-    release_date: Date;
+    release_date: string;
     image_url: string;
     rating: number;
   };
@@ -28,7 +28,9 @@ export default function HomePage() {
     <div>
       <h1> Musical Playlist Solo</h1>
       {songs.map((song) => (
-        <p>{song.title}</p>
+        <p>
+          {song.title} - {song.artist}
+        </p>
       ))}
     </div>
   );

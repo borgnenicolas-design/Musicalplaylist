@@ -9,8 +9,40 @@
 
 # Bug encore en cours
 
-- Les id 9 10 11 dans le back et sur le front-end sont des doublons? je ne sais pas comment effacer le doublon, car sinon a chaque fois que je vais les styliser ça va reproduire en boucle so ... I need Help
+- Les id 9 10 11 dans le back et sur le front-end sont des doublons ! je ne sais pas comment effacer le doublon, car sinon a chaque fois que je vais les styliser ça va reproduire en boucle so ... I need Help
 
 # Désolé pour l'envoi tardif encore une fois ...
 
 - Mais très content d'avoir pu connecter le front, le back, et la db respectivement l'un à l'autre !
+
+# Toujours des oublis de syntaxe et d'import
+
+- Ca fait 2 mois que je ne pense pas à mettre l'import du reset.css j'ai mis dans app.tsx
+
+# Satisfaction
+
+- Après avoir eu de l'aide pour mettre en pratique la base de données pour certains titre de chansons, artistes, album, etc ...
+- J'ai pu enfin mettre le logo dans le backend qui renvoie au frontend, je suis assez content de moi
+
+## Besoin d'aide
+
+- Hormis les doublons ou j'aurais besoin d'aide j'aurais aussi besoin d'aide pour le CSS juste pour le positionnement, sinon en soi, je peux me débrouiller sur certains points
+
+- Comment on passe de le branche main à la branche dev et il faut etre sur quel dossier ?
+
+_Pour qu'ensuite, je passe à la branche feature en mettant tous mes US Correspondant, ainsi que faire les PBacklogs et généré ça_
+
+- Comment faire changer la langue depuis le header sur tout le site ?
+
+### N'hésiter pas à m'engueuler s'il le faut !
+
+- Oui, j'utilise encore l'IA pour me générer le code mais j'arrive à comprendre, mais tout seul, et en peut de temps, c'est dur de faire sans IA _cela reste mon avis_
+
+- Au moins j'arrive a utiliser le terminal sans IA
+  _ou du moins avec parcimonie_
+
+# J'espère être prêt pour le long projet final
+
+- C'est pas gagné !
+
+_Il me reste une semaine c'est encore jouable_ !
