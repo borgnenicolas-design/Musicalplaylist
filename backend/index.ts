@@ -35,6 +35,19 @@ app.get("/songs", async (req, res) => {
   }
 });
 
+app.delete("/songs/:id", async (req, res) => {
+  try {
+    const result = await pool.query("DELETE FROM public.song where id=$1 ", [
+      Number(req.params.id),
+    ]);
+
+    res.json(result.rows);
+  } catch (error) {
+    console.error("Error fetching songs:", error);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`API available on http://localhost:${PORT} !`);
 });
